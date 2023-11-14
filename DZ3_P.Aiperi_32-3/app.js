@@ -1,12 +1,13 @@
 // Задача-1
-var tags = ['li','div','li','p','h1','p','h1','div','div','li','h1','p','h1','d','br']
-var tagsForFound = {}
+var tags = ['li','div','li','p','h1','p','h1','div','div','li','h1','p','h1','d','br'];
+var tagsForFound = {};
 
-for(var i = 0; i < tags.length; i++){
-    var tag = tags[i]
+for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
     tagsForFound[tag] = (tagsForFound[tag] || 0) + 1;
-}   
-console.log(tagsForFound)
+}
+
+console.log(tagsForFound);
 
 
 //Задача-2
@@ -23,16 +24,11 @@ var starbucks = {
     chamomiletea: 'Chamomile tea is a herbal tea made from dried chamomile flowers.',
   }
 }
-var var1 = prompt('Заказ').toLowerCase();
-console.log(var1);
 
-if(starbucks.coffee[var1] !== undefined || starbucks.tea[var1] !== undefined) {
-  console.log('Заказ принят!')
-}else{
+var var1 = prompt('Заказ').toLowerCase();
+
+if (starbucks.coffee[var1] !== undefined || starbucks.tea[var1] !== undefined) {
+  console.log('Заказ принят!');
+} else {
   console.log('error');
 }
-
-
-
-
-
