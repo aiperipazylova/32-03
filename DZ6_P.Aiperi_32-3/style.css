@@ -79,6 +79,14 @@ h3 {
   cursor: pointer;
 }
 
+#modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 750px;
+  margin: 0 auto;
+}
+
 .toggle {
   text-decoration: line-through;
 }

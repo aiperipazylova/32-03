@@ -25,7 +25,7 @@ const createTodo = () => {
         div.remove()
     })
 
-    const editButton = document.createElement('button')
+    const editButton = document.createElement('button');
     editButton.setAttribute('class', 'edit_button');
     editButton.innerText = 'EDIT'
     editButton.addEventListener('click', () => {
@@ -66,7 +66,3 @@ window.onkeydown = (event) => {
         createTodo()
     }
 }
-
-
-
-
