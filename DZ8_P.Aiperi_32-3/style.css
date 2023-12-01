@@ -1,0 +1,9 @@
+#colorSquare {
+  width: 200px;
+  height: 200px;
+  background-color: #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
